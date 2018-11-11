@@ -1,2 +1,2 @@
-# surviving_mars-colony_logo_swiss
+# Surviving Mars: Swiss Logos
 Swiss colony logos for Surviving Mars.
