@@ -2,42 +2,36 @@ return {
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissCivilEnsignDecal",
 	'entity_name', "SwissCivilEnsignDecal",
-	'display_name', "SwissCivilEnsignDecal",
 	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/civil_ensign_1024.png",
 }),
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissCoatOfArmsDecal",
 	'entity_name', "SwissCoatOfArmsDecal",
-	'display_name', "SwissCoatOfArmsDecal",
 	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/coat_of_arms_1024.png",
 }),
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissFlagDecal",
 	'entity_name', "SwissFlagDecal",
-	'display_name', "SwissFlagDecal",
 	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/flag_1024.png",
 }),
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissFlagMapDecal",
 	'entity_name', "SwissFlagMapDecal",
-	'display_name', "SwissFlagMapDecal",
 	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/flag-map_1024.png",
 }),
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissRoundelDecal",
 	'entity_name', "SwissRoundelDecal",
-	'display_name', "SwissRoundelDecal",
-	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/roundel_1024.png",
+	'filename', "D:/downloads/games/Surviving Mars/repo/surviving_mars-colony_logo_swiss/src/resources/images/png/roundel_1024.png",
 }),
 PlaceObj('ModItemDecalEntity', {
 	'name', "SwissSpaceCenterDecal",
 	'entity_name', "SwissSpaceCenterDecal",
-	'display_name', "SwissSpaceCenterDecal",
 	'filename', "H:/Downloads/Games/Surviving Mars/repo/colony_logo_swiss/src/resources/images/png/swiss_space_center_black_font_1024.png",
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissCivilEnsignDecal",
-	display_name = T{781196018151, --[[ModItemMissionLogoPreset SwissCivilEnsign display_name]] "Swiss Civil Ensign"},
+	display_name = T(781196018151, --[[ModItemMissionLogoPreset SwissCivilEnsign display_name]] "Swiss Civil Ensign"),
 	entity_name = "SwissCivilEnsignDecal",
 	filter = function (self) return true end,
 	group = "Default",
@@ -46,7 +40,7 @@ PlaceObj('ModItemMissionLogoPreset', {
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissFlagMapDecal",
-	display_name = T{980265110780, --[[ModItemMissionLogoPreset SwissFlagMap display_name]] "Swiss Flag-Map"},
+	display_name = T(980265110780, --[[ModItemMissionLogoPreset SwissFlagMap display_name]] "Swiss Flag-Map"),
 	entity_name = "SwissFlagMapDecal",
 	filter = function (self) return true end,
 	group = "Default",
@@ -55,7 +49,7 @@ PlaceObj('ModItemMissionLogoPreset', {
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissCoatOfArmsDecal",
-	display_name = T{468064439658, --[[ModItemMissionLogoPreset SwissCoatOfArms display_name]] "Swiss Coat of Arms"},
+	display_name = T(468064439658, --[[ModItemMissionLogoPreset SwissCoatOfArms display_name]] "Swiss Coat of Arms"),
 	entity_name = "SwissCoatOfArmsDecal",
 	filter = function (self) return true end,
 	group = "Default",
@@ -64,7 +58,7 @@ PlaceObj('ModItemMissionLogoPreset', {
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissFlagDecal",
-	display_name = T{584084832579, --[[ModItemMissionLogoPreset SwissFlag display_name]] "Swiss Flag"},
+	display_name = T(584084832579, --[[ModItemMissionLogoPreset SwissFlag display_name]] "Swiss Flag"),
 	entity_name = "SwissFlagDecal",
 	filter = function (self) return true end,
 	group = "Default",
@@ -73,7 +67,7 @@ PlaceObj('ModItemMissionLogoPreset', {
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissRoundelDecal",
-	display_name = T{471181147490, --[[ModItemMissionLogoPreset SwissRoundel display_name]] "Swiss Roundel"},
+	display_name = T(471181147490, --[[ModItemMissionLogoPreset SwissRoundel display_name]] "Swiss Roundel"),
 	entity_name = "SwissRoundelDecal",
 	filter = function (self) return true end,
 	group = "Default",
@@ -82,7 +76,7 @@ PlaceObj('ModItemMissionLogoPreset', {
 }),
 PlaceObj('ModItemMissionLogoPreset', {
 	decal_entity = "SwissSpaceCenterDecal",
-	display_name = T{233268261125, --[[ModItemMissionLogoPreset SwissSpaceCenter display_name]] "Swiss Space Center"},
+	display_name = T(233268261125, --[[ModItemMissionLogoPreset SwissSpaceCenter display_name]] "Swiss Space Center"),
 	entity_name = "SwissSpaceCenterDecal",
 	filter = function (self) return true end,
 	group = "Default",
